@@ -1,2 +1,0 @@
-# Justyol Dashboard - Python dependencies
-# Frappe framework is the primary dependency (installed via bench)
