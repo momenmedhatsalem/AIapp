@@ -1,0 +1,30 @@
+/* Hide Frappe's default page chrome for full-screen dashboard */
+[data-page-container="justyol-hub"] .page-head,
+[data-page-container="justyol-hub"] .page-title,
+.page-container[data-page="justyol-hub"] .page-head {
+  display: none !important;
+}
+
+[data-page-container="justyol-hub"] .main-section,
+.page-container[data-page="justyol-hub"] .main-section {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: #0f172a !important;
+}
+
+[data-page-container="justyol-hub"] .layout-main-section,
+.page-container[data-page="justyol-hub"] .layout-main-section {
+  padding: 0 !important;
+  background: #0f172a !important;
+  max-width: none !important;
+}
+
+/* Override Frappe's default body bg when on dashboard page */
+body[data-route="justyol-hub"] {
+  background: #0f172a !important;
+}
+
+body[data-route="justyol-hub"] .navbar,
+body[data-route="justyol-hub"] #navbar-breadcrumbs {
+  display: none !important;
+}
